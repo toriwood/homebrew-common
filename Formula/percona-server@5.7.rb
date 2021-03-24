@@ -1,10 +1,11 @@
 class PerconaServerAT57 < Formula
   desc "Drop-in MySQL replacement"
   homepage "https://www.percona.com"
-  url "https://www.percona.com/downloads/Percona-Server-5.7/Percona-Server-5.7.24-27/source/tarball/percona-server-5.7.24-27.tar.gz"
-  sha256 "999593afa241660bc7860264b46a826faf97d80d411966fade24084f47b249a0"
+  url "https://www.percona.com/downloads/Percona-Server-5.7/Percona-Server-5.7.33-36/source/tarball/percona-server-5.7.33-36.tar.gz"
+  sha256 "964e32f4a1e235421e26be81d2d24f9e659d8ef3cbd9ae6c3e85fe545bedfd5b"
 
   bottle do
+    root_url "https://homebrew.bintray.com/bottles/"
     sha256 "79938125efb509b03ae247a23198c65fb6684eb49be9336860b5a92b56931b5b" => :mojave
     sha256 "31d1745e94bc82f5fc8d2c677052a323f1dc76fdebe2369a6e23e583e48cc9ad" => :high_sierra
     sha256 "1d6ad1ff891982cee38d7886df5dc99f907a802287a6bddb56c55c552dfcb430" => :sierra
