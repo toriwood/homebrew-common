@@ -1,7 +1,7 @@
 class PerconaServerAT57 < Formula
   desc "Drop-in MySQL replacement"
   homepage "https://www.percona.com"
-  url "https://www.percona.com/downloads/Percona-Server-5.7/Percona-Server-5.7.24-27/source/tarball/percona-server-5.7.24-27.tar.gz"
+  url "https://downloads.percona.com/downloads/Percona-Server-5.7/Percona-Server-5.7.24-27/source/tarball/percona-server-5.7.24-27.tar.gz"
   sha256 "999593afa241660bc7860264b46a826faf97d80d411966fade24084f47b249a0"
 
   bottle do
